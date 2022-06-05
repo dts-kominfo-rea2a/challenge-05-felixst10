@@ -7,8 +7,8 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 // "2. Nama"
 // ...
 const sorter = (arrPerson, sort) => {
-  let dataSort = [];
   arrName = sort[arrPerson];
+  let dataSort = [];
   for(let person = 0; person < arrName.length; person++){
     let name = "";
     name += (person++) + "" + arrName[person];
