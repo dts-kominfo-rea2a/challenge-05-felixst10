@@ -9,7 +9,7 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 const sorter = (arrPerson, sort) => {
   let dataSort = [];
   arrName = sort[arrPerson];
-  for(let person = 0; person < arrName; person++){
+  for(let person = 0; person < arrName.length; person++){
     let name = "";
     name += (person++) + "" + arrName[person];
     dataSort.push(name);
@@ -20,7 +20,7 @@ const sorter = (arrPerson, sort) => {
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan
 const sortAscending = (arrPerson) => {
-  return arrPerson.sort();
+  return arrPerson.sort()
 };
 
 // TODO: Fungsi untuk mengurutkan array of string secara descending
