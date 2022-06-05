@@ -11,7 +11,7 @@ const sorter = (arrPerson, sort) => {
   let dataSort = [];
   for(let person = 0; person < arrName.length; person++) {
     let name = "";
-    name += (person++) +". "+arrName[person];
+    name += (person++) +""+arrName[person];
     dataSort.push(name);
   }
   return dataSort;
