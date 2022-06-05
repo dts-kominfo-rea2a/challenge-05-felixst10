@@ -10,7 +10,7 @@ const sorter = (arrPerson, sort) => {
   arrName = sort[arrPerson];
   let dataSort = [];
   for(let person = 0; person < arrName.length; person++){
-    let name = "";
+    let nama = "";
     nama += (person++) + "" + arrName[person];
     dataSort.push(nama);
   };
