@@ -21,7 +21,7 @@ const sorter = (arrPerson, sort) => {
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan
 const sortAscending = (arrPerson) => {
-  return arrPerson.sort()
+  return arrPerson.sort();
 };
 
 // TODO: Fungsi untuk mengurutkan array of string secara descending
