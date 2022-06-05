@@ -9,13 +9,14 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 const sorter = (arrPerson, sort) => {
   arrName = sort[arrPerson];
   let dataSort = [];
-  for(let person = 0; person < arrName.length; person++){
-    let nama = "";
-    nama += (person++) + "" + arrName[person];
-    dataSort.push(nama);
+  for(let person = 0; person < arrName; person++){
+    let name = "";
+    name += (person++) + "" + arrName[person];
+    dataSort.push(name);
   };
   return dataSort;
 };
+
 
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan
