@@ -12,7 +12,8 @@ const sorter = (arrNames, cbSort) => {
 
   for(let counter = 0; counter < arrNames.length; counter++){
     if(cbSort(arrNames)){
-      let nama = `${counter + 1}. ${arrNames[counter]}`;
+      let nama = "";
+      nama += counter + 1 + ". " + arrNames[counter];
       result.push(nama);
     };
   };
