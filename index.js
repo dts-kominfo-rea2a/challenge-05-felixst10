@@ -29,7 +29,7 @@ const sortAscending = (sort) => {
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
 const sortDescending = (sort) => {
-  return sort.reverse();
+  return sort.sort().reverse();
 }
 
 // ! JANGAN DIMODIFIKASI
