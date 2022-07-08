@@ -8,7 +8,7 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 // ...
 
 const sorter = (arrNames, cbSort) => {
-  let result = [""];
+  let result = [];
 
   for(let counter = 0; counter < arrNames.length; counter++){
     if(cbSort(arrNames)){
